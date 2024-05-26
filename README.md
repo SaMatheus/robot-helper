@@ -15,7 +15,12 @@ npm install robot-test-methods
 Depois de instalar o pacote, você pode importá-lo em seu arquivo de teste da seguinte maneira:
 
 ```javascript
-import { interactWithElement, fillInput, clickButton } from 'robot-test-methods';
+import setup from 'robot-test-methods';
+```
+e desestruturar os metodos do `setup` dessa forma:
+
+```javascript
+const { interactWithElement, fillInput, clickButton } = setup;
 ```
 
 Agora você pode usar as funções `interactWithElement`, `fillInput` e `clickButton` em seus testes conforme necessário.
