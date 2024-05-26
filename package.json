@@ -1,0 +1,20 @@
+{
+  "name": "robot-test-methods",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "testing-library",
+    "react",
+    "robot pattern"
+  ],
+  "author": "samatheus",
+  "license": "ISC",
+  "description": "A package for interacting with elements using @testing-library/react",
+  "dependencies": {
+    "npm": "^10.7.0"
+  }
+}
