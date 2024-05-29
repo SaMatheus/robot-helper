@@ -1,18 +1,20 @@
-const { screen, fireEvent } = require('@testing-library/react');
+import React from 'react';
+import { render } from '@testing-library/react';
+import { actionHelper, fetchMockHelper, assertHelper } from './src/helpers';
 
-const setup = {
-  interactWithElement: (elementText, event) => {
-    const element = screen.getByText(elementText);
-    event ? fireEvent[event](element) : fireEvent.click(element);
-  },
-  fillInput: (placeholderText, value) => {
-    const input = screen.getByPlaceholderText(placeholderText);
-    fireEvent.change(input, { target: { value } });
-  },
-  clickButton: (buttonText) => {
-    const button = screen.getByText(buttonText);
-    fireEvent.click(button);
-  },
-};
+const renderComponentWithHelpers = (Component, props = {}) => {
+  const renderedComponent = render(<Component {...props} />);
 
-module.exports = setup;
+  const helpers = {
+    actionHelper,
+    fetchMockHelper,
+    assertHelper
+  };
+
+  return {
+    ...renderedComponent,
+    ...helpers
+  };
+}
+
+export default renderComponentWithHelpers;
