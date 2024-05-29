@@ -1,6 +1,17 @@
 {
+  "setupFilesAfterEnv": [
+    "./jest.d.ts"
+  ],
   "transform": {
-    "^.+\\.jsx?$": "babel-jest"
+    "^.+\\.(js|jsx|ts|tsx)$": "ts-jest"
   },
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
   "testEnvironment": "jsdom"
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { actionHelper, fetchMockHelper, assertHelper } from './src/helpers';
 
-const renderComponentWithHelpers = (Component, props = {}) => {
+const robotHelper = (Component, props = {}) => {
   const renderedComponent = render(<Component {...props} />);
 
   const helpers = {
@@ -17,4 +17,4 @@ const renderComponentWithHelpers = (Component, props = {}) => {
   };
 }
 
-export default renderComponentWithHelpers;
+export default robotHelper;

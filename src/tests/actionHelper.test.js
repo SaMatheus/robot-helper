@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { actionHelper } from '../helpers';
 
-describe.skip('actionHelper', () => {
+describe('actionHelper', () => {
   test('triggerEvent should trigger the specified event', async () => {
     const TestComponent = () => <button>Test Button</button>;
     render(<TestComponent />);

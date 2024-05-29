@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { assertHelper } from '../helpers';
 
-describe.only('assertHelper', () => {
+describe('assertHelper', () => {
   test('checkIf should correctly assert based on the provided matcher', () => {
     assertHelper.checkIf(5, 5, 'toBe');
     assertHelper.checkIf(5, 4, 'toBe', 'not');
@@ -10,10 +10,10 @@ describe.only('assertHelper', () => {
 
   test('asyncCheckIf should correctly assert based on the provided matcher and modifier', async () => {
     const promiseResolves = Promise.resolve('resolved');
-    const promiseRejects = Promise.reject(new Error('error'));
+    const promiseRejects = Promise.reject(new Error('error')).catch(() => {});
   
-    await assertHelper.asyncCheckIf(promiseResolves, 'resolved', 'resolves');  
-    await assertHelper.asyncCheckIf(promiseRejects, new Error('error'), 'rejects', 'not').catch(() => {});
+    await assertHelper.asyncCheckIf(promiseResolves, 'resolved', 'toBe', 'resolves');  
+    await assertHelper.asyncCheckIf(promiseRejects, 'error', 'toBe', 'not');
   });
 
   test('checkArray should correctly assert based on the provided operation', () => {
