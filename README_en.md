@@ -4,15 +4,15 @@ This package contains a set of utility functions to assist you in writing unit a
 
 ## Index
 
-- [Pré-requisitos](#pr%C3%A9-requisitos)
+- [Requisities](#pr%C3%A9-requisitos)
 - [Installation](#instala%C3%A7%C3%A3o)
 - [Import](#importa%C3%A7%C3%A3o)
 - [Documentation](#documenta%C3%A7%C3%A3o)
-- [Tecnologias usadas](#tecnologias-usadas)
+- [Technologies](#tecnologias-usadas)
 - [Contributing](#contribuindo)
 - [License](#licen%C3%A7a)
 
-## Pré requisitos
+## Requisites
 
 ![Static Badge](https://img.shields.io/badge/npm-version%2010-%23CB3837?style=plastic)<br>
 
@@ -63,14 +63,14 @@ import robotHelper from 'robotHelper';
 
 const { actionHelper } = robotHelper;
 
-// Para disparar um evento de clique em um elemento
-await actionHelper.triggerEvent('Texto do Elemento');
+// To trigger a click event on an element
+await actionHelper.triggerEvent('Element Text');
 
-// Para preencher um campo de entrada
-await actionHelper.fillFormField('Texto do Placeholder', 'Valor');
+// To fill an input field
+await actionHelper.fillFormField('Placeholder Text', 'Value');
 
-// Para clicar em um botão
-await actionHelper.clickButton('Texto do Botão');
+// To click a button
+await actionHelper.clickButton('Button Text');
 ```
 
   <summary><b>Assert Helper</b></summary><br> This module exports an `assertHelper` object that contains methods for performing various checks in tests.
@@ -108,20 +108,20 @@ import robotHelper from 'robotHelper';
 
 const { assertHelper } = robotHelper;
 
-// Para verificar se dois valores são iguais
+// To check if two values are equal
 assertHelper.checkIf(received, expected, 'toEqual');
 
-// Para verificar se um array contém um valor
+// To check if an array contains a value
 assertHelper.checkArray(array, 'contains', value);
 
-// Para verificar se um objeto tem uma propriedade
+// To check if an object has a property
 assertHelper.checkObject(object, 'hasProperty', propertyName);
 
-// Para verificar a presença de um elemento
-await assertHelper.verifyElementPresence('Texto do Elemento');
+// To verify the presence of an element
+await assertHelper.verifyElementPresence('Element Text');
 
-// Para verificar a ausência de um elemento
-await assertHelper.verifyElementAbsence('Texto do Elemento');
+// To verify the absence of an element
+await assertHelper.verifyElementAbsence('Element Text');
 ```
 
   <summary><b>Mock Helper</b></summary><br> This module exports a `mockHelper` object that contains methods for simulating fetch calls in tests.
@@ -151,25 +151,25 @@ import robotHelper from 'robotHelper';
 
 const { mockHelper } = robotHelper;
 
-// Para simular uma chamada de fetch bem-sucedida
+// To simulate a successful fetch call
 mockHelper.fetchSuccess({ key: 'value' });
 
-// Para simular uma chamada de fetch que falha
+// To simulate a fetch call that fails
 mockHelper.fetchFailure(new Error('Network error'));
 
-// Para simular uma chamada de fetch com um status específico
+// To simulate a fetch call with a specific status
 mockHelper.fetchWithStatus({ key: 'value' }, 404);
 
-// Para limpar o mock de fetch
+// To clear the fetch mock
 mockHelper.clearFetchMock();
 ```
 
 
 
 
-## Tecnologias usadas
+## Technologies
 
-Pensando no desempenho e na escalabilidade deste pacote e do seu projeto, escolhemos as tecnologias mais avançadas do mercado para compor nosso projeto. Elas são: <br> [](https://react.dev/)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) [](https://jestjs.io/pt-BR/)![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white) [](https://www.typescriptlang.org/pt/)![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) [](https://testing-library.com/)![Testing Library](https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red)
+Thinking about the performance and scalability of this package and your project, we chose the most advanced technologies on the market to compose our project. They are:<br>[](https://react.dev/)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)[](https://jestjs.io/pt-BR/)![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)[](https://www.typescriptlang.org/pt/)![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)[](https://testing-library.com/)![Testing Library](https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red)
 
 ## Contributing
 
