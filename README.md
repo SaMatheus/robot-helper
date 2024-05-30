@@ -2,6 +2,15 @@
 Este pacote contém um conjunto de funções utilitárias para auxilia-lo na escrita de testes unitários e E2E usando Robot Pattern.<br>
 Desde interações básicas com a interface como o cliock de um botão, até formas práticas de mockar chamadas a API's ou banco de dados o Robot Helper foi construido pensando na melhor forma de otimizar a escrita de testes com o Robot Pattern e deixa-lo ainda mais legível.
 
+## Índice
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Importação](#importação)
+- [Documentação](#documentação)
+- [Tecnologias usadas](#tecnologias-usadas)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+
 ## Pré requisitos
 ![Static Badge](https://img.shields.io/badge/npm-version%2010-%23CB3837?style=plastic)<br>
 
