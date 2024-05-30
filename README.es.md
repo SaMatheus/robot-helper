@@ -1,6 +1,9 @@
 # Robot Helper
 
-Este paquete contiene un conjunto de funciones de utilidad para ayudarte a escribir pruebas unitarias y de extremo a extremo utilizando el Patrón Robot. Desde interacciones básicas con la interfaz, como hacer clic en un botón, hasta formas prácticas de simular llamadas a API o a la base de datos, Robot Helper fue creado pensando en la mejor manera de optimizar la escritura de pruebas con el Patrón Robot y hacerlo aún más legible.
+Este paquete contiene un conjunto de funciones de utilidad para ayudarte a escribir pruebas unitarias y de extremo a extremo utilizando el Patrón Robot.<br>
+Desde interacciones básicas con la interfaz, como hacer clic en un botón, hasta formas prácticas de simular llamadas a API o a la base de datos, Robot Helper fue creado pensando en la mejor manera de optimizar la escritura de pruebas con el Patrón Robot y hacerlo aún más legible.<br>
+Para más información acceda a nuestro repositorio:<br>
+[![Static Badge](https://img.shields.io/badge/Robot-Helper-%23181717?logo=github&link=https%3A%2F%2Fgithub.com%2FSaMatheus%2Frobot-helper)](https://github.com/SaMatheus/robot-helper)
 
 ## Índice
 

@@ -1,6 +1,9 @@
 # Robot Helper
 Este pacote contém um conjunto de funções utilitárias para auxilia-lo na escrita de testes unitários e E2E usando Robot Pattern.<br>
-Desde interações básicas com a interface como o cliock de um botão, até formas práticas de mockar chamadas a API's ou banco de dados o Robot Helper foi construido pensando na melhor forma de otimizar a escrita de testes com o Robot Pattern e deixa-lo ainda mais legível.
+Desde interações básicas com a interface como o cliock de um botão, até formas práticas de mockar chamadas a API's ou banco de dados o Robot Helper foi construido pensando na melhor forma de otimizar a escrita de testes com o Robot Pattern e deixa-lo ainda mais legível.<br>
+Para mais informações acesso o repositório do pacote:<br>
+[![Static Badge](https://img.shields.io/badge/Robot-Helper-%23181717?logo=github&link=https%3A%2F%2Fgithub.com%2FSaMatheus%2Frobot-helper)](https://github.com/SaMatheus/robot-helper)
+
 
 ## Índice
 - [Pré-requisitos](#pré-requisitos)
@@ -12,7 +15,8 @@ Desde interações básicas com a interface como o cliock de um botão, até for
 - [Licença](#licença)
 
 ## Pré requisitos
-![Static Badge](https://img.shields.io/badge/npm-version%2010-%23CB3837?style=plastic)<br>
+![Npm](https://img.shields.io/badge/npm-version%2010-%23CB3837?logo=npm&link=https%3A%2F%2Fgithub.com%2FSaMatheus%2Frobot-helper)
+<br>
 
 ## Instalação
 Para instalar este pacote, você precisa ter o Node.js e o npm instalados em sua máquina. Depois, você pode instalar o pacote com o seguinte comando:

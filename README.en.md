@@ -1,6 +1,9 @@
 # Robot Helper
 
-This package contains a set of utility functions to assist you in writing unit and E2E tests using Robot Pattern.<br> From basic interactions with the interface such as clicking a button, to practical ways of mocking API or database calls, Robot Helper was built thinking about the best way to optimize test writing with the Robot Pattern and make it even more readable.
+This package contains a set of utility functions to assist you in writing unit and E2E tests using Robot Pattern.<br>
+From basic interactions with the interface such as clicking a button, to practical ways of mocking API or database calls, Robot Helper was built thinking about the best way to optimize test writing with the Robot Pattern and make it even more readable.<br>
+For more informations access our repo:<br>
+[![Static Badge](https://img.shields.io/badge/Robot-Helper-%23181717?logo=github&link=https%3A%2F%2Fgithub.com%2FSaMatheus%2Frobot-helper)](https://github.com/SaMatheus/robot-helper)
 
 ## Index
 
