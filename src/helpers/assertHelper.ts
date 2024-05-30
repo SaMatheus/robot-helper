@@ -68,7 +68,6 @@ const assertHelper: AssertHelper = {
     const element = screen.getByText(elementText);
     await waitFor(() => expect(element).toBeInTheDocument());
   },
-  
   verifyElementAbsence: async (elementText) => {
     await waitFor(() => expect(screen.queryByText(elementText)).not.toBeInTheDocument());
   }
