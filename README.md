@@ -1,4 +1,4 @@
-# Robot Test Methods
+# Robot Helper
 
 Este pacote contém um conjunto de funções utilitárias para interagir com elementos da interface do usuário em testes usando Robot Pattern. Ele usa a biblioteca `@testing-library/react` para simular eventos do usuário.
 
@@ -7,7 +7,7 @@ Este pacote contém um conjunto de funções utilitárias para interagir com ele
 Para instalar este pacote, você precisa ter o Node.js e o npm instalados em sua máquina. Depois, você pode instalar o pacote com o seguinte comando:
 
 ```bash
-npm install robot-test-methods
+npm install robot-helper
 ```
 
 ## Importação
@@ -15,7 +15,7 @@ npm install robot-test-methods
 Depois de instalar o pacote, você pode importá-lo em seu arquivo de teste da seguinte maneira:
 
 ```javascript
-import setup from 'robot-test-methods';
+import setup from 'robot-helper';
 ```
 e desestruturar os metodos do `setup` dessa forma:
 
