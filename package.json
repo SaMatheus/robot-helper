@@ -12,7 +12,7 @@
     "robot pattern"
   ],
   "author": "samatheus",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A package for interacting with elements using @testing-library/react",
   "dependencies": {
     "npm": "^10.7.0",
