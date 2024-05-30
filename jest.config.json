@@ -1,6 +1,6 @@
 {
   "setupFilesAfterEnv": [
-    "./jest.d.ts"
+    "./jest.setup.ts"
   ],
   "transform": {
     "^.+\\.(js|jsx|ts|tsx)$": "ts-jest"
