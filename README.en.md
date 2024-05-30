@@ -40,7 +40,9 @@ const { actionHelper, mockHelper, assertHelper, renderedComponent } = robotHelpe
 
 ## Documentation
 
- <summary><b>Action Helper</b></summary><br> This module exports an `actionHelper` object that contains methods for interacting with UI elements in tests.
+<details>
+ <summary><b>Action Helper</b></summary><br>
+ This module exports an `actionHelper` object that contains methods for interacting with UI elements in tests.
 
 #### Methods
 
@@ -72,8 +74,10 @@ await actionHelper.fillFormField('Placeholder Text', 'Value');
 // To click a button
 await actionHelper.clickButton('Button Text');
 ```
-
-  <summary><b>Assert Helper</b></summary><br> This module exports an `assertHelper` object that contains methods for performing various checks in tests.
+</details>
+<details>
+<summary><b>Assert Helper</b></summary><br>
+This module exports an `assertHelper` object that contains methods for performing various checks in tests.
 
 #### Methods
 
@@ -123,8 +127,10 @@ await assertHelper.verifyElementPresence('Element Text');
 // To verify the absence of an element
 await assertHelper.verifyElementAbsence('Element Text');
 ```
-
-  <summary><b>Mock Helper</b></summary><br> This module exports a `mockHelper` object that contains methods for simulating fetch calls in tests.
+</details>
+<details>
+<summary><b>Mock Helper</b></summary><br>
+This module exports a `mockHelper` object that contains methods for simulating fetch calls in tests.
 
 #### Methods
 
@@ -163,9 +169,7 @@ mockHelper.fetchWithStatus({ key: 'value' }, 404);
 // To clear the fetch mock
 mockHelper.clearFetchMock();
 ```
-
-
-
+</details>
 
 ## Technologies
 
